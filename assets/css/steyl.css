@@ -1,0 +1,153 @@
+body{
+   margin: 0 auto;
+   width: 80%;
+}
+
+h1,h2,p,span{
+    font-family: 'Karla', ;
+}
+/* ++++++++++++++++++++++ header +++++++++++++++++++++ */
+header{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', ;
+    
+}
+header ul{
+    display: flex;
+    list-style: none;
+    padding: 2% 0 0 0;
+    font-family: 'Karla', ;
+}
+
+/* +++++++++++++++++++++++++++ section +++++++++++++++++++++++++++ */
+section{
+    
+    width: 100%;
+    margin: 0 auto;
+    
+}
+section img{
+    width: 100%;
+    color: -webkit-link;
+    cursor: pointer;
+}
+section h2{
+   margin: -9% 0 0 90%;
+   font-family: 'Karla', ;
+}
+section span{
+     color: #848484;
+     font-family: 'Karla', ;
+}
+section h2{
+    font-family: 'Karla', ;
+}
+/* +++++++++++++++++++++++++++++++++++ #section ++++++++++++++++++++++++++++++++++++ */
+#section{
+     display: flex;
+     
+     grid-template-columns: 1fr 1fr 1fr ;
+     grid-template-rows: 20% 20% 20%;
+    
+}
+.bild1{
+    width: 500px;
+    margin: 0 1%;
+}
+.bild1 img{
+    
+   margin: 20% 1% 0 0;
+}
+.bild1 h1{
+    font-family: 'Karla', ;
+    font-size: 15px;
+} 
+.bild1 span{
+    font-size: 10px;
+}
+.bild1 h2{
+    font-size: 15px;
+    margin: -14.5% 0 0 88% ;
+}
+
+/* +++++++++++++++++++++ section2 ++++++++++++++++++++++++ */
+
+#section2{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 20% 20% 20%;
+   
+}
+.bild2{
+   width: 500px;
+   margin: 0 1%;
+}
+.bild2 img{
+  margin: 20% 1% 0 0;
+}
+.bild2 h1{
+   font-family: 'Karla', ;
+   font-size: 15px;
+} 
+.bild2 span{
+   font-size: 10px;
+}
+.bild2 h2{
+   font-size: 15px;
+   margin: -14.5% 0 0 88% ;
+}
+/* ++++++++++++++++++++++ section3 +++++++++++++++++++++++ */
+#section3{
+    margin: 5% 0 0 0;
+   
+}
+/* +++++++++++++++++++++ section4 ++++++++++++++++++++++*/
+
+#section4{
+    margin: 5% 0 0 0;
+   
+}
+/* ++++++++++++++++++++++ footer +++++++++++++++++++++ */
+footer{
+    width: 100%;
+    margin: 0 auto;
+     display: flex;
+}
+footer ul{
+    margin: 10% 10% 5% -2%;
+    display: table ;
+   
+}
+footer h5{
+    width: 140px;
+    font-size: 10px;
+    font-family: 'Karla', ;
+
+}
+footer li{
+    list-style: none;
+    color: rgb(95, 95, 95);
+    
+    display: run-in;
+    font-size: 65%;
+    width: 177px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', ;
+    font-size: 10px;
+}
+footer p{
+    font-size: 10px;
+    margin: 20% 0 0 0;
+}
+
